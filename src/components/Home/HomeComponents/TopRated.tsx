@@ -6,7 +6,8 @@ import { Link } from "react-router-dom";
 const InitTopRated = {
   title: "",
   original_language: "",
-  id: 0,
+  id: "0",
+  movieId: "0",
   overview: "",
   poster_path: "",
   release_date: "",
