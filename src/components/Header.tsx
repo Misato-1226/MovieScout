@@ -25,7 +25,7 @@ const Header = ({ user }: PropsType) => {
     <div className="p-5 fixed top-0 right-0 w-full flex justify-between items-center bg-black">
       <Link to="/" className={user ? "" : "w-32"}>
         <img
-          src="/src/assets/logo.png"
+          src="/logo.png"
           alt="Movie Scout"
           className={user ? "md:w-1/4 w-1/4" : "w-full"}
         />
